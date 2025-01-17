@@ -1,0 +1,6 @@
+# Example Plugin File for Nano Syntax Highlighting
+
+syntax "plugin" "\.plugin$"
+color brightblue "^\#.*"  # Comment
+icolor green "^\s*function\s+\w+"  # Function
+icolor brightyellow "^\s*local\s+\w+"  # Local Variable
